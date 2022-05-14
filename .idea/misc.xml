@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/account_rcv.xml" value="0.29786324786324786" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/account_rv.xml" value="0.6" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/activity_list.xml" value="0.22" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/activity_main.xml" value="0.15213675213675212" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/activity_message_group.xml" value="0.29786324786324786" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/fragment_group_one.xml" value="0.15213675213675212" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/fragment_group_two.xml" value="0.15213675213675212" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/list_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/list_user1.xml" value="0.22" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/msg_rcv.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/Tan Jin Daat/Documents/Polytechnic Materials/Year 2/Semester 1/MAD/Week 4/Practical/app/src/main/res/layout/user_view.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

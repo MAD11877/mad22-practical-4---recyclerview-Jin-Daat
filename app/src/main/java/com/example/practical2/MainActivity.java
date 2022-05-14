@@ -11,15 +11,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.time.Duration;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    User newUser = new User(
-            "JINESE",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-            1,
-            false
-    );
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,17 +23,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Intent receivingEnd = getIntent();
-        double message = receivingEnd.getDoubleExtra("RanInt", 10);
+        String newName = receivingEnd.getStringExtra("newName");
+        String newDesc = receivingEnd.getStringExtra("newDesc");
+        boolean followStatus = receivingEnd.getBooleanExtra("followStatus", false);
 
-        System.out.println("The value is " + message);
+        //Create a user obj from retrieved user
+        User newUser = new User(newName, newDesc, 0, followStatus);
 
         //Set User name
         TextView userName = (TextView)findViewById(R.id.userName);
-        userName.setText(newUser.name + " " + Math.round(message));
+        userName.setText(newName);
 
         //Set User description
         TextView userDesc = (TextView)findViewById(R.id.userDesc);
-        userDesc.setText(newUser.description);
+        userDesc.setText(newDesc);
 
         Button followBtn = findViewById(R.id.follow);
         Button messageBtn = findViewById(R.id.message);
